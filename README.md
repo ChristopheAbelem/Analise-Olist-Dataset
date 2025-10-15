@@ -22,7 +22,11 @@ O objetivo é explorar o comportamento de **clientes, vendedores, produtos e reg
 ## Dados Utilizados
 - **Fonte dos Dados**: Dataset Olist  
 - **Descrição**: Contém informações de pedidos, clientes, vendedores, produtos, categorias, métodos de pagamento e logística.  
-- **Período analisado**: Setembro de 2016 a Agosto de 2018  
+- **Período analisado**: Setembro de 2016 a Agosto de 2018
+- Os datasets do Olist não estão incluídos neste repositório devido ao tamanho. Para utilizar o notebook, você deve baixar os arquivos CSV diretamente do Kaggle, importa-los no PostgreSQL e em seguida realizar a conexão do notebook com o banco através da biblioteca sqlalchemy:
+
+- [Olist Datasets no Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
+ 
 
 ---
 
